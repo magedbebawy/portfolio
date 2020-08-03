@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9bf02bc9ab.js" crossorigin="anonymous"></script>
+    <title>Home</title> 
+</head>
+<body>
+    <header>
+        <nav th:replace="layouts :: navbar"></nav>
+    </header>
+    <main class="container">
+      
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, World ;)</h1>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-7">
+                    <p class="bio">My name is Maged Bebawy. I am a full-stack Web Application Developer, currently living in California. I have a Bachelor's in Computer Science from University of Maryland Global Campus.</p>
+                    
+                </div>
+                <div class="col-md-5">
+                    <img src="profile.jpg" alt="profile pic" width="100%" height="100%">
+                </div>
+            </div>
+                <a target="_blank" href="https://www.linkedin.com/in/maged-bebawy-a8586a53"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://github.com/magedbebawy"><i class="fab fa-github fa-2x"></i></a>
+          </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.bio{
+    padding: 100px 50px;
+    font-size: 22px;
+    
+}
+.card{
+    margin: 0 auto;
+}
+.row{
+    margin: 10px auto;
+}
+.btn{
+    margin: 10px;
+}
+.container{
+    margin: 10px auto;
+    
+}
+ul{
+    margin: 40px auto;
+    max-width: 400px;
+}
+.jumbotron{
+    min-height: 500px;
+}
+
+i{
+    color: black;
+}
+
+.social{
+    margin: 40px auto;
+    align-content: center;
+}
+.social a{
+    float: none;
+    max-width: 10px;
+}
